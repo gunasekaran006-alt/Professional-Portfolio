@@ -1,0 +1,97 @@
+/* Pro Developer Touch: Smooth Scroll & Navbar Offset Fix */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+
+body {
+    background-color: #0d1117;
+    color: #e6edf3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-panel {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 12px;
+}
+
+.text-cyan {
+    color: #27C8F5 !important;
+}
+
+/* Glowing Button Effect */
+.btn-cyan-glow {
+    display: inline-block;
+    background-color: #27C8F5 !important;
+    color: #000000 !important;
+    font-size: 15px;
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    border: 2px solid #27C8F5 !important;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-cyan-glow:hover {
+    background-color: transparent !important;
+    color: #27C8F5 !important;
+    box-shadow: 0px 0px 15px rgba(39, 200, 245, 0.8);
+    transform: scale(1.05);
+}
+
+.hover-card {
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.hover-card:hover {
+    transform: translateY(-5px);
+    border-color: #27C8F5 !important;
+}
+
+.tech-badge {
+    background-color: transparent;
+    border: 1px solid #27C8F5;
+    color: #27C8F5;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    margin: 4px;
+    display: inline-block;
+}
+
+.native-bullets {
+    list-style-type: disc;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+    color: #e6edf3;
+}
+
+.native-bullets li {
+    margin-bottom: 8px;
+}
+
+/* Certificate Card Styling */
+.cert-card {
+    background-color: #1a212b;
+    border: 1px solid #30363d;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s ease;
+    height: 100%;
+}
+
+.cert-card:hover {
+    border-color: #27C8F5;
+    transform: translateY(-4px);
+}
+
+
+/* Adding modern depth to existing panels */
+.bg-panel {
+    background: rgba(22, 27, 34, 0.8) !important;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
