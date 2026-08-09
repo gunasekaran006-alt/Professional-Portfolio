@@ -95,3 +95,27 @@ body {
     backdrop-filter: blur(10px);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
+
+
+
+/* Typing Effect */
+#typing-text {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.typing-cursor {
+    color: #27C8F5;
+    font-weight: bold;
+    animation: blinkCursor 0.8s infinite;
+}
+
+@keyframes blinkCursor {
+    0%, 50% {
+        opacity: 1;
+    }
+
+    51%, 100% {
+        opacity: 0;
+    }
+}
